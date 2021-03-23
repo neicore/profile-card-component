@@ -108,6 +108,7 @@
     text-align: center;
     margin-bottom: 20px;
     color: #2d3248;
+    z-index: 1;
 }
 
 .attribution > a{
