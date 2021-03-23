@@ -10,6 +10,7 @@
     background-color: #19a2ae;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     position: relative;
 }
 
@@ -101,6 +102,17 @@
     font-size: 15px;
     margin-top: 3px;
     line-height: 2;
+}
+
+.attribution{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3248;
+}
+
+.attribution > a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 @media(max-width: 375px) {
